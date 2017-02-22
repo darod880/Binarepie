@@ -1,2 +1,0 @@
-# Binarepie
-Coding Test
