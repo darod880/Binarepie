@@ -1,9 +1,9 @@
 #Function: Provides the Fibonocci sequence to a specific place without a loop
 #Coder: David Rodriguez
-#Version: 1.0
-#Date of last update: 2/20/2017
+#Version: 1.1
+#Date of last update: 2/22/2017
 
-def fib(i): 
+def fib(i): # Defines the Fibonocci algorithm using recursion
    if i <= 1:
        return i
    else:
@@ -14,6 +14,7 @@ if ith_element <= 0:
    print("Plese re-run the program and enter a positive integer")
 else:
    print('\nFibonacci sequence to the ' + str(ith_element) + 'th step:')
+   print('Seq:  Fib:')
    for a in range(ith_element):
-       print(fib(a)),
+       print(str(a+1), ')  ' , fib(a)),
        
